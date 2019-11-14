@@ -1,0 +1,93 @@
+@import "./reset.css";
+@import "./font.css";
+
+
+
+:root {
+	--main-color: 234, 234, 234;
+	--accent-color: 210, 210, 210;
+	--text-color: 0, 0, 0;
+	--delete-color: 222, 27, 44;
+	--add-color: 79, 201, 255;
+	--placeholder-color: 163, 163, 163;
+	--highlight-color: 163, 163, 163;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+:-moz-placeholder {
+	color: rgb(var(--placeholder-color));
+}
+
+::-webkit-input-placeholder {
+	color: rgb(var(--placeholder-color));
+}
+
+input {
+	color: rgb(var(--text-color));
+}
+
+*:focus {
+	outline: none;
+}
+
+:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+:focus::-moz-placeholder {
+	color: transparent;
+}
+
+:focus:-moz-placeholder {
+	color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+	color: transparent;
+}
+
+strong,
+b {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+ul,
+ol {
+	padding-left: 2rem;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+
+
+body,
+html {
+	background-color: rgb(var(--main-color));
+	color: rgb(var(--text-color));
+	font-family: "Roboto";
+	font-weight: 300;
+}
+
+button {
+	background-color: #fff;
+}
+
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}

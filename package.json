@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "delegated-events": "^1.1.1",
+    "idb": "^4.0.5",
     "vue": "^2.6.10",
+    "vue-awesome-swiper": "^3.1.3",
     "vue-router": "^3.1.3",
     "vuex": "^3.1.1"
   },
@@ -34,14 +37,14 @@
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
-		}
+    }
   },
   "postcss": {
     "plugins": {
       "autoprefixer": {}
     }
-	},
-	"prettier": {
+  },
+  "prettier": {
     "singleQuote": true
   },
   "browserslist": [

@@ -13,7 +13,7 @@
 	--highlight-color: 163, 163, 163;
 }
 
-*{
+* {
 	box-sizing: border-box;
 }
 
@@ -85,9 +85,104 @@ button {
 	background-color: #fff;
 }
 
+.container {
+	position: relative;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+.grid {
+	width: 100%;
+	padding: 0 1rem;
+}
 
 img {
 	display: block;
 	width: 100%;
 	height: auto;
+}
+
+
+
+/*Кнопки*/
+.btn {
+	display: inline-block;
+	padding: .5rem .7rem;
+	background-color: rgb(var(--accent-color));
+	border-radius: .3rem;
+	color: rgb(var(--text-color));
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.back-btn {
+	max-width: 3rem;
+	cursor: pointer;
+}
+
+/*Кнопки END*/
+
+
+
+/*Экран перед трюком*/
+.extra-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.extra-list .item {
+	margin-bottom: 1rem;
+	background-color: rgb(var(--accent-color));
+	border-radius: .3rem;
+	padding: .5rem .7rem;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+/*Экран перед трюком END*/
+
+
+/*Обучение*/
+.description,
+.explanation {
+	margin-bottom: .5rem;
+	font-weight: 400;
+}
+
+.explanation-ol li {
+	margin-bottom: 1rem;
+}
+
+.explanation-ol p {
+	margin-bottom: 1rem;
+}
+
+.description-text {
+	margin-bottom: 1rem;
+}
+
+.explanation-img {
+	margin-bottom: 1rem;
+	border: 1px solid rgb(var(--accent-color));
+}
+
+.explanation-img.small {
+	width: 50%;
+	margin-left: 25%;
+}
+
+/*Обучение END*/
+
+
+
+/*Ютуб видео*/
+
+/*Ютуб видео END*/
+
+
+.d-n {
+	display: none;
 }

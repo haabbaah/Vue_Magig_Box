@@ -16,7 +16,7 @@
     </router-link>
 
     <router-link tag="div" :to="`/menu`" exact>
-      <img class="menu-btn" src="../assets/menu.svg" alt />
+      <img class="menu-btn" src="@/assets/menu.svg" alt />
     </router-link>
     <div class="version">Версия 1.0</div>
   </div>
@@ -35,7 +35,7 @@ export default {
         },
         {
           name: 'Числа',
-          path: '/number',
+          path: '/numbers',
           image: 'Numbers.png'
         }
       ]
